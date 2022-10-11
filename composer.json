@@ -1,0 +1,18 @@
+{
+  "name": "platron/yandexpay-example",
+  "type": "project",
+  "require": {
+    "ext-curl": "*",
+    "ext-simplexml": "*",
+    "platron/signature": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Platron/signature.git"
+    }
+  ],
+  "autoload": {
+    "classmap": ["classes/"]
+  }
+}

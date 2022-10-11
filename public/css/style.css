@@ -1,0 +1,22 @@
+body {
+    font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+    background: linear-gradient(180deg, #ffffff, #d7d7d7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+p {
+    font-weight: 300;
+}
+
+.yandex-pay {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

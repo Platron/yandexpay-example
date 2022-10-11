@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "230c32db4e55e66e481741e1ec4d8efa",
+    "packages": [
+        {
+            "name": "platron/signature",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Platron/signature.git",
+                "reference": "5d429a518c6695295b6a495ac99a9f8742b7a66d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Platron/signature/zipball/5d429a518c6695295b6a495ac99a9f8742b7a66d",
+                "reference": "5d429a518c6695295b6a495ac99a9f8742b7a66d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "platron\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Protocol signature package",
+            "homepage": "http://platron.ru",
+            "keywords": [
+                "platron",
+                "protocol",
+                "signature"
+            ],
+            "support": {
+                "issues": "https://github.com/platron/signature/issues?state=open",
+                "source": "https://github.com/platron/signature"
+            },
+            "time": "2015-08-05T10:47:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

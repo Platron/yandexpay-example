@@ -1,0 +1,15 @@
+<?php
+
+class Settings
+{
+	const YANDEXPAY_MERCHANT_ID = 'yandexpay_id'; // идентификатор, полученный при регистрации в Yandex Pay.
+
+    const MERCHANT_ID = 'your_merchant_id'; // ID вашего магазина в Платрон
+    const MERCHANT_SECRET_KEY = 'your_secret_key'; // Secret key магазина в Платрон
+    const PAYMENT_SYSTEM_NAME = 'TESTYANDEXPAY'; // Название платежной системы Yandex Pay для тестового режима
+//    const PAYMENT_SYSTEM_NAME = 'YANDEXPAY'; // Название платежной системы Yandex Pay для боевого режима
+
+    const PLATRON_BASE_URL = 'https://platron.ru';
+    const PLATRON_YANDEX_PATH = '/index.php/web/yandex-pay';
+    const PLATRON_YANDEX_URL = self::PLATRON_BASE_URL . self::PLATRON_YANDEX_PATH;
+}
